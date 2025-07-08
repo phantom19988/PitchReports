@@ -175,3 +175,23 @@ footer p {
 .score-card p {
   color: #555;
 }
+
+
+@media (max-width: 768px) {
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .header-content h1{
+    align-content: center;
+    transform: translateX(150px);
+  }
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .match-list {
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+}
